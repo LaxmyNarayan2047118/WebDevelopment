@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a00fb+0,e600ff+100 */
+    background: #cc2b5e; /* Old browsers */
+    background: -moz-linear-gradient(45deg,#cc2b5e 0%, #753a88 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #cc2b5e 0%,#753a88 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #cc2b5e 0%,#753a88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2b5e', endColorstr='#753a88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+aside {
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+.img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.figure {
+    margin: 0;
+    position: absolute;
+    width: 19.40% !important;
+        height: 20% ;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-weight: bold;
+  
+}
+
+nav {
+    background: #fff;
+}
+
+.active {
+    position: absolute;
+    display: block;
+    background: #fff;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    display: block;
+    padding: 1.5em 3em;
+    background-color: rgba(255,255,255,.35);
+    color: #000;
+}
+
+main {
+    background: #fff;
+    padding: 1em 1.4em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.cta {
+    display: block;
+    color: #fff;
+    background: #0E7FFF;
+    text-decoration: none;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+}
+
+.container {
+    padding: 3em;
+    display: grid;
+    grid-column-gap: 2em;
+    grid-row-gap: 7em;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+}
+
+    .carspics {
+        padding: 2em;
+        border-radius: .3em;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+        height: 80%;
+        width: 80%;
+    }
+
+        #crp {
+            margin-top: 0;
+            height: 90%;
+            width: 95%;
+        }
+
+        span {
+            font-weight: bold;
+            position: relative;
+            margin-left: 15px;
+            color: black;
+        }
+        
+        a
+        {
+           text-decoration: none;
+        }
+
+           /* :before {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 10px;
+                border-bottom: 1px solid black;
+                top: 10px;
+                left: -15px;
+
+            }*/
+        
+    
+
+
+@media (min-width: 550px) {
+    /*
+    .span-2 {
+        grid-column: auto / span 2;
+    }
+    */
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 1em;
+        overflow: hidden;
+    }
+
+    .img {
+        display: none;
+    }
+
+    aside {
+        background: #DCE1F6;
+        grid-template-columns: auto;
+        grid-template-rows: 13% auto;
+        padding: 0;
+    }
+
+    main {
+        padding: 2.5em;
+        height: 510px;
+        padding-bottom: 3em;
+        background: white url('../images/bg.svg') no-repeat bottom right;
+        background-size:45%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+  
+
+    #avatar {
+        border-radius: 50%;
+        background:#fff;
+        width: 80px;
+        height: 80px;
+        margin: 2em auto 1em auto;
+    }
+
+    figcaption {
+        text-align: center;
+        color: #000;
+    }
+
+    ul {
+    display: block;
+    margin-top: 8.6em;
+    position: relative;
+    background: none !important;
+    width: 100% !important
+    }
+
+    ul li a:hover {
+        background-color: #fff;
+    }
+
+    nav {
+        background: none;
+    }
+
+    .cta {
+        display: inline-block;
+        font-size: 1.3em;
+        padding: .8em 3em;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-top: 1em;
+        
+    }
+
+    p {
+        font-size: 1em;
+    }
+    .logo{
+        max-width: 70%;
+        max-height: 70%;
+        display: block;
+        margin-bottom: 2em;
+        margin-left: 15%;
+       } 
+    
+    logosec{
+           height:250px;
+           width:500px;
+     }
+           
+          
+    .logo2{
+        height: 100%;
+        width: 100%;
+    }
+    .input-field,location{
+        max-width: 380px;
+        width: 100%;
+        background-color: #f0f0f0;
+      
+        height: 55px;
+        border-radius: 55px;
+        display: grid;
+        position: absolute;
+        grid-template-columns: 15% 85%;
+        padding: 0 0.4rem;
+        position: relative;
+      }
+     
+      
+      .input-field i {
+        text-align: center;
+        line-height: 55px;
+        color: #acacac;
+        transition: 0.5s;
+        font-size: 1.1rem;
+        color: black;
+      }
+      
+      .input-field input{
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #333;
+      }
+      
+      .input-field input::placeholder {
+        color: #aaa;
+        font-weight: 500;
+      }
+      .input-field input::value {
+        color: #aaa;
+        font-weight: 500;
+      }
+      .btn {
+        width: 150px;
+        background-color: #f442ff;
+        border: none;
+        outline: none;
+        height: 49px;
+        border-radius: 49px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      
+      .btn:hover {
+        background-color: #6D047D;
+       
+      }
+      :root{
+        --gradient: linear-gradient(45deg,#822659,#b34180,#e36bae,#FCD75F,#FDE187,#F1BA04);
+    }
+      .title1{
+          margin-top: 0em ;
+          font-size: 3.7em ;
+          font-weight: 1000;
+          background-image: var(--gradient);
+          color: transparent;
+          -webkit-background-clip: text;
+          background-size: 100%;
+          animation: bg-animation 2s infinite alternate;
+          
+      }
+      @keyframes bg-animation {
+          0%{
+              background-position:left;
+          }
+          100%{
+              background-position:right;
+          }
+          
+      }
+
+}
+
+
+
+@media (min-width: 550px) {
+    /*
+    .span-2 {
+        grid-column: auto / span 2;
+    }
+    */
+}
